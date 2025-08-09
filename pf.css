@@ -1,0 +1,197 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9faff;
+  color: #333;
+  scroll-behavior: smooth;
+  padding: 0 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+  background-color: #4a90e2;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #357abd;
+}
+
+/* Sections */
+section {
+  padding: 3rem 1rem;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  margin-top: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+  color: #222;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.8rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.6rem;
+}
+
+/* Skill section icons and list styling */
+.skill-icon {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  margin-right: 6px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#skill ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#skill ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* Project Section Styling */
+.project-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+  background-color: #fefefe;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.project-img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+  border: 1px solid #ddd;
+}
+
+.project-info strong {
+  display: block;
+  font-size: 1.75rem;
+  margin-bottom: 0.3rem;
+  color: #222;
+}
+
+.project-info p {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #555;
+}
+/* Social Sidebar Styling - Vertical */
+.social-sidebar {
+  position: fixed;
+  top: 100px;          /* উপরের দিক থেকে কতটুকু নিচে শুরু হবে */
+  left: 10px;          /* স্ক্রিনের বাম দিক থেকে দূরত্ব */
+  display: flex;
+  flex-direction: column; /* লম্বা লম্বি সাজাবে */
+  gap: 15px;
+  z-index: 1000;
+}
+
+.social-sidebar ul {
+  display: flex;
+  flex-direction: column; /* লিস্ট আইটেমগুলোও লম্বা লম্বি */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-sidebar ul li a {
+  color: #4a90e2;
+  font-size: 24px;        /* আইকনের সাইজ */
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.social-sidebar ul li a:hover {
+  color: #357abd;         /* hover এ কালার চেঞ্জ */
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+  font-size: 
+ 
