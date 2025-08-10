@@ -1,4 +1,4 @@
-// Optional: Smooth scroll polyfill or custom smooth scroll behavior
+
 
 document.querySelectorAll('nav ul li a').forEach(link => {
   link.addEventListener('click', function(e) {
@@ -10,3 +10,4 @@ document.querySelectorAll('nav ul li a').forEach(link => {
     }
   });
 });
+
