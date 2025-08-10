@@ -1,4 +1,4 @@
-/* Reset and base */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
 }
 
-/* Navigation */
+
 nav {
   background-color: #4a90e2;
   padding: 1rem 0;
@@ -47,7 +47,7 @@ nav ul li a:focus {
   background-color: #357abd;
 }
 
-/* Sections */
+
 section {
   padding: 3rem 1rem;
   border-bottom: 1px solid #ddd;
@@ -68,7 +68,7 @@ p {
   font-size: 1rem;
 }
 
-/* Tables */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -86,7 +86,7 @@ th {
   color: white;
 }
 
-/* Lists */
+
 ul, ol {
   margin-left: 1.2rem;
   margin-top: 1rem;
@@ -97,7 +97,7 @@ li {
   margin-bottom: 0.6rem;
 }
 
-/* Skill section icons and list styling */
+
 .skill-icon {
   width: 12px;
   height: 12px;
@@ -118,7 +118,7 @@ li {
   margin-bottom: 8px;
 }
 
-/* Project Section Styling */
+
 .project-list {
   list-style: none;
   padding-left: 0;
@@ -157,20 +157,20 @@ li {
   font-size: 1.25rem;
   color: #555;
 }
-/* Social Sidebar Styling - Vertical */
+
 .social-sidebar {
   position: fixed;
-  top: 100px;          /* উপরের দিক থেকে কতটুকু নিচে শুরু হবে */
-  left: 10px;          /* স্ক্রিনের বাম দিক থেকে দূরত্ব */
+  top: 100px;          
+  left: 10px;         
   display: flex;
-  flex-direction: column; /* লম্বা লম্বি সাজাবে */
+  flex-direction: column; 
   gap: 15px;
   z-index: 1000;
 }
 
 .social-sidebar ul {
   display: flex;
-  flex-direction: column; /* লিস্ট আইটেমগুলোও লম্বা লম্বি */
+  flex-direction: column; 
   list-style: none;
   padding: 0;
   margin: 0;
@@ -178,20 +178,21 @@ li {
 
 .social-sidebar ul li a {
   color: #4a90e2;
-  font-size: 24px;        /* আইকনের সাইজ */
+  font-size: 24px;        
   transition: color 0.3s ease;
   display: inline-block;
 }
 
 .social-sidebar ul li a:hover {
-  color: #357abd;         /* hover এ কালার চেঞ্জ */
+  color: #357abd;         
 }
 
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 1.5rem 0;
   margin-top: 3rem;
   font-size: 
+
  
